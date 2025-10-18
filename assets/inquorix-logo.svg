@@ -1,0 +1,27 @@
+<svg width="240" height="80" viewBox="0 0 240 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coreGradient" x1="18" y1="18" x2="62" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCD34D"/>
+      <stop offset="0.45" stop-color="#F9A8D4"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <linearGradient id="beamGradient" x1="16" y1="24" x2="50" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDE68A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#C7D2FE" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" fill="none"/>
+  <!-- Insight beam -->
+  <path d="M20 18L62 60C58 66 50 70 42 70C27 70 15 58 15 43C15 35 19 27 25 22L20 18Z" fill="url(#beamGradient)"/>
+  <!-- Core -->
+  <circle cx="43" cy="42" r="26" fill="url(#coreGradient)"/>
+  <!-- Extracted signal -->
+  <circle cx="43" cy="42" r="14" fill="#0F172A" opacity="0.82"/>
+  <path d="M44 18L70 26L56 32C52 24 48 20 44 18Z" fill="#F8FAFC" opacity="0.85"/>
+
+  <!-- Wordmark -->
+  <text x="94" y="52" fill="#0F172A" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="32" font-weight="600" letter-spacing="0.18em">
+    INQUORIX
+  </text>
+  <circle cx="104" cy="32" r="4" fill="url(#coreGradient)"/>
+</svg>

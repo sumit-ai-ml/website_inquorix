@@ -1,8 +1,8 @@
-# Inquor Website
+# Inquorix Website
 
 **AI-Powered Customer Sentiment Analysis Platform**
 
-A professional website for Inquor, showcasing how AI sentiment analysis revolutionizes customer understanding for businesses. The name comes from “Insight + Core” to signal that the platform surfaces the core meaning inside every piece of feedback.
+A professional website for Inquorix, showcasing how AI sentiment analysis revolutionizes customer understanding for businesses. The name comes from “Insight + Core” to signal that the platform surfaces the core meaning inside every piece of feedback.
 
 ## 🌟 Features
 
@@ -22,7 +22,7 @@ A professional website for Inquor, showcasing how AI sentiment analysis revoluti
 │   ├── post1.html         # AI Sentiment Analysis Revolution
 │   ├── post2.html         # Why Customer Understanding is Critical
 │   ├── post3.html         # Hidden Cost of Not Knowing Customers
-│   └── post4.html         # How Inquor Transforms Insights
+│   └── post4.html         # How Inquorix Transforms Insights
 └── README.md              # This file
 ```
 
@@ -40,7 +40,7 @@ A professional website for Inquor, showcasing how AI sentiment analysis revoluti
   - AI sentiment analysis trends
   - Business importance of customer understanding
   - Financial impact of customer misunderstanding
-  - Inquor platform capabilities
+  - Inquorix platform capabilities
 
 ## 📧 Contact Integration
 
@@ -99,7 +99,7 @@ This is a static website that can be deployed to:
 ## 👨‍💼 Author
 
 **Sumit Pandey**
-Founder & CEO, Inquor
+Founder & CEO, Inquorix
 📧 sumitpandey171@gmail.com
 
 ---

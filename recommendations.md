@@ -1,8 +1,8 @@
-# Inquor Pre-Launch Website Recommendations
+# Inquorix Pre-Launch Website Recommendations
 
 ## Brand & Story
 - Align the product name across every page (title tag, navigation, hero copy) and settle on a single brand voice.
-- Weave the origin story (Inquor comes from “Insight + Core,” the core of understanding) into the hero subheading or an about strip.
+- Weave the origin story (Inquorix comes from “Insight + Core,” the core of understanding) into the hero subheading or an about strip.
 - Add a concise sub-heading that clarifies the product promise, target customer, and launch timing right under the hero headline.
 - Rework CTA language so it fits the pre-launch stage (e.g., “Join the waitlist”, “Get early access”) and echo the same phrasing throughout the site.
 
