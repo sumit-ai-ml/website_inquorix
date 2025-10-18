@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | Inquorix</title>
-    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
+    <link rel="alternate icon" type="image/x-icon" href="static/favicon.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -443,9 +445,7 @@
                 <!-- Founder 1 - Sumit Pandey -->
                 <div class="feature-card intelligence" data-aos="fade-up" data-aos-delay="150">
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="founder-avatar">
-                            <span class="text-xl font-bold">SP</span>
-                        </div>
+                        <img src="assets/sumit.jpeg" alt="Sumit Pandey" class="w-14 h-14 rounded-full object-cover border-2 border-indigo-200 shadow-md flex-shrink-0">
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 leading-tight">Sumit Pandey</h3>
                             <span class="feature-category-badge intelligence" style="margin: 0; margin-top: 0.35rem;">Founding Engineer</span>
@@ -454,11 +454,13 @@
                     <div class="space-y-2 text-sm text-gray-600 leading-relaxed">
                         <p class="flex items-start gap-2">
                             <i data-feather="award" class="w-4 h-4 flex-shrink-0 text-indigo-600 mt-0.5"></i>
-                            <span><strong>PhD</strong>, Computer Science<br>University of Copenhagen</span>
+                            <span><strong>PhD</strong>, Computer Science<br>University of Copenhagen<br>Visiting Researcher, Martinos Center, Harvard/MIT</span>
                         </p>
-                        <p class="flex items-start gap-2">
-                            <i data-feather="briefcase" class="w-4 h-4 flex-shrink-0 text-indigo-600 mt-0.5"></i>
-                            <span>Ex-Visiting Researcher<br>Martinos Center, Harvard/MIT</span>
+                        <p class="flex items-start gap-2 mt-3">
+                            <a href="https://www.linkedin.com/in/sumit-pandey-ai/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-700 transition-colors">
+                                <i data-feather="linkedin" class="w-4 h-4"></i>
+                                <span class="text-xs font-medium">Connect on LinkedIn</span>
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -466,22 +468,26 @@
                 <!-- Founder 2 - Toshali -->
                 <div class="feature-card integration" data-aos="fade-up" data-aos-delay="200">
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="founder-avatar founder-avatar-amber">
-                            <span class="text-xl font-bold">T</span>
-                        </div>
+                        <img src="assets/toshali.jpeg" alt="Toshali" class="w-14 h-14 rounded-full object-cover border-2 border-amber-200 shadow-md flex-shrink-0">
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 leading-tight">Toshali</h3>
-                            <span class="feature-category-badge integration" style="margin: 0; margin-top: 0.35rem;">Industry Expert</span>
+                            <span class="feature-category-badge integration" style="margin: 0; margin-top: 0.35rem;">Anthropologist & Customer Insights Advisor</span>
                         </div>
                     </div>
                     <div class="space-y-2 text-sm text-gray-600 leading-relaxed">
                         <p class="flex items-start gap-2">
-                            <i data-feather="book-open" class="w-4 h-4 flex-shrink-0 text-amber-600 mt-0.5"></i>
-                            <span><strong>Anthropologist</strong><br>Cultural Context Expert</span>
+                            <i data-feather="briefcase" class="w-4 h-4 flex-shrink-0 text-amber-600 mt-0.5"></i>
+                            <span><strong>Insights Analyst</strong><br>Go Nordic Cruiseline</span>
                         </p>
                         <p class="flex items-start gap-2">
                             <i data-feather="award" class="w-4 h-4 flex-shrink-0 text-amber-600 mt-0.5"></i>
                             <span><strong>Master of Science</strong><br>Punjab University</span>
+                        </p>
+                        <p class="flex items-start gap-2 mt-3">
+                            <a href="https://www.linkedin.com/in/toshali-/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-amber-600 hover:text-amber-700 transition-colors">
+                                <i data-feather="linkedin" class="w-4 h-4"></i>
+                                <span class="text-xs font-medium">Connect on LinkedIn</span>
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -489,12 +495,10 @@
                 <!-- Founder 3 - Satyasararn Changdar -->
                 <div class="feature-card security" data-aos="fade-up" data-aos-delay="250">
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="founder-avatar founder-avatar-green">
-                            <span class="text-xl font-bold">SC</span>
-                        </div>
+                        <img src="assets/satyasaran.jpeg" alt="Satyasararn Changdar" class="w-14 h-14 rounded-full object-cover border-2 border-green-200 shadow-md flex-shrink-0">
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 leading-tight">Satyasararn Changdar</h3>
-                            <span class="feature-category-badge security" style="margin: 0; margin-top: 0.35rem;">Technical Advisor</span>
+                            <span class="feature-category-badge security" style="margin: 0; margin-top: 0.35rem;">Technical Advisor (AI)</span>
                         </div>
                     </div>
                     <div class="space-y-2 text-sm text-gray-600 leading-relaxed">
@@ -504,7 +508,13 @@
                         </p>
                         <p class="flex items-start gap-2">
                             <i data-feather="award" class="w-4 h-4 flex-shrink-0 text-green-600 mt-0.5"></i>
-                            <span><strong>PhD</strong>, Kolkata University<br><strong>M.Tech</strong>, IIT Delhi & IIT Mumbai</span>
+                            <span><strong>PhD</strong>, University of Calcutta<br><strong>M.Tech</strong>, IIT Delhi & IIT Mumbai</span>
+                        </p>
+                        <p class="flex items-start gap-2 mt-3">
+                            <a href="https://www.linkedin.com/in/satyasaran-changdar/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors">
+                                <i data-feather="linkedin" class="w-4 h-4"></i>
+                                <span class="text-xs font-medium">Connect on LinkedIn</span>
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -512,9 +522,7 @@
                 <!-- Founder 4 - Mitesh Gohil -->
                 <div class="feature-card marketing" data-aos="fade-up" data-aos-delay="300">
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="founder-avatar founder-avatar-purple">
-                            <span class="text-xl font-bold">MG</span>
-                        </div>
+                        <img src="assets/mitesh.jpeg" alt="Mitesh Gohil" class="w-14 h-14 rounded-full object-cover border-2 border-purple-200 shadow-md flex-shrink-0">
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 leading-tight">Mitesh Gohil</h3>
                             <span class="feature-category-badge marketing" style="margin: 0; margin-top: 0.35rem;">Marketing Lead</span>
@@ -528,6 +536,39 @@
                         <p class="flex items-start gap-2">
                             <i data-feather="award" class="w-4 h-4 flex-shrink-0 text-purple-600 mt-0.5"></i>
                             <span><strong>B.Tech.</strong></span>
+                        </p>
+                        <p class="flex items-start gap-2 mt-3">
+                            <a href="https://www.linkedin.com/in/mitesh-gohil-a46087bb/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 transition-colors">
+                                <i data-feather="linkedin" class="w-4 h-4"></i>
+                                <span class="text-xs font-medium">Connect on LinkedIn</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Founder 5 - Anindya Sen -->
+                <div class="feature-card intelligence" data-aos="fade-up" data-aos-delay="350">
+                    <div class="flex items-center gap-3 mb-4">
+                        <img src="assets/anindyasen.jpeg" alt="Anindya Sen" class="w-14 h-14 rounded-full object-cover border-2 border-blue-200 shadow-md flex-shrink-0">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-tight">Anindya Sen</h3>
+                            <span class="feature-category-badge intelligence" style="margin: 0; margin-top: 0.35rem; background: rgba(59, 130, 246, 0.1); color: #1e40af;">Technical Advisor (Software Engineering)</span>
+                        </div>
+                    </div>
+                    <div class="space-y-2 text-sm text-gray-600 leading-relaxed">
+                        <p class="flex items-start gap-2">
+                            <i data-feather="briefcase" class="w-4 h-4 flex-shrink-0 text-blue-600 mt-0.5"></i>
+                            <span><strong>Solution Architect</strong><br>Norlys, Copenhagen</span>
+                        </p>
+                        <p class="flex items-start gap-2">
+                            <i data-feather="award" class="w-4 h-4 flex-shrink-0 text-blue-600 mt-0.5"></i>
+                            <span><strong>B.Tech</strong><br>SRM University, Chennai, India</span>
+                        </p>
+                        <p class="flex items-start gap-2 mt-3">
+                            <a href="https://www.linkedin.com/in/anindyasen88/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors">
+                                <i data-feather="linkedin" class="w-4 h-4"></i>
+                                <span class="text-xs font-medium">Connect on LinkedIn</span>
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -544,51 +585,41 @@
                     <ul class="space-y-3">
                         <li><a href="about.html" class="text-sm font-light hover:text-black smooth-transition">About</a></li>
                         <li><a href="index.html#demo" class="text-sm font-light hover:text-black smooth-transition">Demo</a></li>
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">Pricing</a></li>
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">API</a></li>
+                        <li><span class="text-sm font-light text-gray-400">Pricing (Coming Soon)</span></li>
+                        <li><span class="text-sm font-light text-gray-400">API (Coming Soon)</span></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-black font-semibold mb-4 text-sm">Resources</h3>
                     <ul class="space-y-3">
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">Documentation</a></li>
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">Guides</a></li>
+                        <li><span class="text-sm font-light text-gray-400">Documentation (Coming Soon)</span></li>
+                        <li><span class="text-sm font-light text-gray-400">Guides (Coming Soon)</span></li>
                         <li><a href="blog/index.html" class="text-sm font-light hover:text-black smooth-transition">Blog</a></li>
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">Support</a></li>
+                        <li><a href="mailto:sumitpandey171@gmail.com" class="text-sm font-light hover:text-black smooth-transition">Support</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-black font-semibold mb-4 text-sm">Company</h3>
                     <ul class="space-y-3">
                         <li><a href="about.html" class="text-sm font-light hover:text-black smooth-transition">About</a></li>
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">Careers</a></li>
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">Privacy</a></li>
-                        <li><a href="#" class="text-sm font-light hover:text-black smooth-transition">Terms</a></li>
+                        <li><span class="text-sm font-light text-gray-400">Careers (Coming Soon)</span></li>
+                        <li><span class="text-sm font-light text-gray-400">Privacy Policy (Coming Soon)</span></li>
+                        <li><span class="text-sm font-light text-gray-400">Terms (Coming Soon)</span></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-black font-semibold mb-4 text-sm">Connect</h3>
-                    <div class="flex space-x-4 mb-6">
-                        <a href="#" class="text-gray-600 hover:text-black smooth-transition">
-                            <i data-feather="twitter" class="w-5 h-5"></i>
-                        </a>
-                        <a href="#" class="text-gray-600 hover:text-black smooth-transition">
-                            <i data-feather="linkedin" class="w-5 h-5"></i>
-                        </a>
-                        <a href="#" class="text-gray-600 hover:text-black smooth-transition">
-                            <i data-feather="github" class="w-5 h-5"></i>
-                        </a>
-                    </div>
                     <div class="mt-4">
-                        <a href="mailto:sumitpandey171@gmail.com" class="text-sm font-light hover:text-black smooth-transition flex items-center">
+                        <a href="mailto:sumitpandey171@gmail.com" class="text-sm font-light hover:text-black smooth-transition flex items-center mb-3">
                             <i data-feather="mail" class="w-4 h-4 mr-2"></i>
                             sumitpandey171@gmail.com
                         </a>
+                        <p class="text-xs font-light text-gray-400 mt-2">Social media coming soon</p>
                     </div>
                 </div>
             </div>
             <div class="pt-8 border-t border-gray-200 text-center">
-                <p class="text-sm font-light text-gray-500">© 2023 Inquorix. All rights reserved.</p>
+                <p class="text-sm font-light text-gray-500">© 2025 Inquorix. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -703,5 +734,6 @@
             }
         });
     </script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
