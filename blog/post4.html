@@ -524,35 +524,8 @@
             easing: 'ease-out'
         });
         feather.replace();
-
-        // Mobile menu toggle functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenu = document.getElementById('mobile-menu');
-            const menuIcon = mobileMenuButton.querySelector('i[data-feather="menu"]');
-
-            mobileMenuButton.addEventListener('click', function() {
-                mobileMenu.classList.toggle('hidden');
-
-                // Toggle icon between menu and x
-                if (mobileMenu.classList.contains('hidden')) {
-                    menuIcon.setAttribute('data-feather', 'menu');
-                } else {
-                    menuIcon.setAttribute('data-feather', 'x');
-                }
-                feather.replace();
-            });
-
-            // Close mobile menu when clicking on a link
-            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
-            mobileMenuLinks.forEach(link => {
-                link.addEventListener('click', function() {
-                    mobileMenu.classList.add('hidden');
-                    menuIcon.setAttribute('data-feather', 'menu');
-                    feather.replace();
-                });
-            });
-        });
+        // Mobile menu toggle functionality is now in ../assets/js/main.js
     </script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
