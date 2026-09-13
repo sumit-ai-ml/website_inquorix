@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Customer Analytics | Inquorix product preview</title>
+    <meta name="robots" content="noindex" />
+    <meta
+      name="description"
+      content="Explore the Inquorix Customer Analytics concept: survey scores, response rates, volumes, and comparisons across periods and locations."
+    />
+    <link rel="icon" href="static/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/customer-analytics.css" />
+    <script src="assets/js/customer-analytics.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to overview</a>
+    <aside class="sidebar">
+      <a class="brand" href="index.html">INQUORIX<span></span></a>
+      <div class="workspace">
+        <span class="workspace-icon">H</span>
+        <div>Harbor & Pine<small>Sample hospitality company</small></div>
+      </div>
+      <p class="nav-caption">CUSTOMER ANALYTICS</p>
+      <nav aria-label="Page sections">
+        <a class="nav-active" href="#overview"><span>◫</span> Overview</a
+        ><a href="#changes"><span>↗</span> Performance</a
+        ><a href="#coverage"><span>◷</span> Survey coverage</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="preview-badge">PRODUCT CONCEPT</span>
+        <p>
+          Fictional survey data. Explore scores, response rates, and period
+          comparisons.
+        </p>
+        <a href="index.html#panel-analytics">← Back to the website</a>
+      </div>
+    </aside>
+    <div class="app">
+      <header class="topbar">
+        <a href="index.html" class="mobile-brand">INQUORIX<span></span></a
+        ><span>Workspace <span class="slash">/</span> Customer Analytics</span>
+        <div>
+          <span class="sample-label">Interactive sample</span
+          ><button class="quiet-button" id="reset-demo">Reset demo</button>
+        </div>
+      </header>
+      <main id="main">
+        <section id="overview">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">SURVEY PERFORMANCE</p>
+              <h1>Customer analytics.</h1>
+              <p class="page-subtitle">
+                Compare response volumes, satisfaction, and NPS across surveys,
+                time periods, and locations.
+              </p>
+            </div>
+            <button class="outline-button" id="export-summary">
+              ↓ Download summary
+            </button>
+          </div>
+          <div class="filterbar">
+            <div class="period-label">
+              <span class="calendar-icon">▦</span>
+              <div>
+                <strong>August 2026</strong
+                ><span>vs July 2026 · same survey questions</span>
+              </div>
+            </div>
+            <label class="location-label" for="location-filter"
+              >Location<select id="location-filter">
+                <option value="all">All locations</option>
+                <option value="city">City hotel</option>
+                <option value="coast">Coast retreat</option>
+                <option value="airport">Airport hotel</option>
+              </select></label
+            ><span class="snapshot">Sample snapshot · 1 Sep 2026</span>
+          </div>
+          <div class="metrics" id="metrics"></div>
+          <p class="metric-help">
+            Compared with July. pp = percentage points. Select a metric to
+            explore its trend.
+          </p>
+        </section>
+        <section class="performance-grid" id="changes">
+          <article class="card trend-card">
+            <div class="card-heading">
+              <div>
+                <p class="eyebrow">01 / WHAT CHANGED</p>
+                <h2 id="trend-heading">Satisfaction over time</h2>
+              </div>
+              <div class="segmented" role="group" aria-label="Trend period">
+                <button data-granularity="monthly" aria-pressed="true">
+                  Monthly</button
+                ><button data-granularity="weekly" aria-pressed="false">
+                  Weekly
+                </button>
+              </div>
+            </div>
+            <div class="trend-meta" id="trend-meta"></div>
+            <div class="chart" id="overview-chart"></div>
+            <p class="chart-note" id="trend-note"></p>
+            <details class="chart-table">
+              <summary>View values and definition <span>+</span></summary>
+              <div id="trend-table"></div>
+            </details>
+          </article>
+          <article class="card location-card">
+            <div class="card-heading">
+              <div>
+                <p class="eyebrow">02 / BY LOCATION</p>
+                <h2>Satisfaction by location.</h2>
+              </div>
+            </div>
+            <p class="card-description">
+              Satisfaction can move differently across the business. Select a
+              location to focus this page.
+            </p>
+            <div id="location-breakdown"></div>
+            <p class="small-note">
+              Comparisons describe respondents, not every guest. Location mix
+              can affect the overall score.
+            </p>
+          </article>
+        </section>
+        <section class="coverage-grid" id="coverage">
+          <article class="card">
+            <div class="card-heading">
+              <div>
+                <p class="eyebrow">03 / RESPONSE COVERAGE</p>
+                <h2>Survey participation.</h2>
+              </div>
+            </div>
+            <div id="response-funnel"></div>
+            <div class="coverage-takeaway" id="coverage-takeaway"></div>
+          </article>
+          <article class="card methods-card">
+            <div class="card-heading">
+              <div>
+                <p class="eyebrow">04 / COMPARISON NOTES</p>
+                <h2>How the numbers are calculated.</h2>
+              </div>
+            </div>
+            <ul class="calculation-notes">
+              <li>
+                <span>✓</span>
+                <div>
+                  <strong>Comparable questions</strong>
+                  <p>
+                    The example uses the same satisfaction and recommendation
+                    scales in both surveys.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>↔</span>
+                <div>
+                  <strong>Different respondents</strong>
+                  <p>
+                    This compares two respondent groups. It does not measure the
+                    same customers changing their minds.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>◎</span>
+                <div>
+                  <strong>Percentage points and score points</strong>
+                  <p>
+                    Changes in satisfaction and response rate use percentage
+                    points. NPS changes use score points.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span>—</span>
+                <div>
+                  <strong>Each metric has its own denominator</strong>
+                  <p>
+                    Satisfaction and NPS use valid answers. Email response rate
+                    uses delivered invitations. Open any metric’s chart details
+                    to see its definition.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+        <footer class="report-footer">
+          <span>INQUORIX <b>Customer Analytics · product concept</b></span
+          ><a
+            href="mailto:sumitpandey171@gmail.com?subject=Customer%20Analytics%20feedback"
+            >Share feedback on this concept ↗</a
+          >
+        </footer>
+      </main>
+    </div>
+    <p class="sr-only" id="app-status" role="status" aria-live="polite"></p>
+    <noscript
+      ><p class="no-script">
+        Enable JavaScript to explore this sample overview. Customer Analytics is
+        a planned product.
+      </p></noscript
+    >
+  </body>
+</html>
