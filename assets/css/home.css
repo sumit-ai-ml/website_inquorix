@@ -1614,15 +1614,6 @@ h2 em {
   gap: 10px;
   flex-wrap: wrap;
 }
-.coming-soon {
-  font-size: 8px;
-  text-transform: none;
-  letter-spacing: 0.02em;
-  border: 1px solid #708267;
-  color: #e9e4b5;
-  padding: 3px 7px;
-  border-radius: 20px;
-}
 .analytics-dashboard {
   color: var(--ink);
   border-radius: 12px;
